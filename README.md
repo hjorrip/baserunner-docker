@@ -5,7 +5,7 @@ This repository contains a Dockerfile for easily running the Baserunner applicat
 Docker: Make sure you have Docker installed on your system.
 ## Usage
 Clone the Repository:
-````bash
+```bash
 git clone https://github.com/<your_username>/baserunner.git
 ```
 
@@ -16,9 +16,9 @@ docker build -t baserunner-app .
 ```
 
 ## Run the Container (Interactive Mode):
-````bash
+```bash
 docker run -it --rm -p 3000:3000 baserunner-app 
-````
+```
 
 This will start the application and show logs directly in your terminal.
 Press Ctrl+C to stop the container.
